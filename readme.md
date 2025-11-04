@@ -1,4 +1,4 @@
-# Automated Waste Classification using Deep Learning
+# Automated Waste Classification for Sustainability
 
 This project provides an end-to-end solution for automatically classifying waste into different categories using a Convolutional Neural Network (CNN) built from scratch. The trained model is deployed in a simple, interactive web application built with Flask.
 
