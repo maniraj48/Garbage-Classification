@@ -5,8 +5,6 @@ This project provides an end-to-end solution for automatically classifying waste
 ## Demo
 
 ![Demo of the Waste Classifier Web App](./demo.png)
-[![My Project Logo](./images/demo.png)](https://github.com/maniraj48/Garbage-Classification)
-
 
 ## 1. Project Overview
 
@@ -31,7 +29,7 @@ The model was built from scratch using TensorFlow and Keras. The training proces
 
 After this rigorous process, the final model achieved:
 
-- **Final Test Accuracy:** **[YOUR-BEST-ACCURACY-HERE]%**
+- **Final Test Accuracy:** **58.20%**
 
 This accuracy was achieved by evaluating the best-performing version of the model on a completely unseen test set.
 
@@ -50,7 +48,6 @@ This accuracy was achieved by evaluating the best-performing version of the mode
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
 git clone https://github.com/maniraj48/Garbage-Classification.git
 cd Garbage-Classification
 ```
