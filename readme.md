@@ -5,8 +5,8 @@ This project provides an end-to-end solution for automatically classifying waste
 ## Demo
 
 ![Demo of the Waste Classifier Web App]([LINK-TO-YOUR-DEMO-SCREENSHOT.PNG])
+![Demo of the Waste Classifier Web App](./demo.png)](https://github.com/maniraj48/Garbage-Classification.git)
 
-*To use, simply upload an image of a waste item and click "Classify Waste".*
 
 ## 1. Project Overview
 
@@ -51,7 +51,8 @@ This accuracy was achieved by evaluating the best-performing version of the mode
 ### Step 1: Clone the Repository
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/maniraj48/Garbage-Classification.git
+cd Garbage-Classification
 ```
 
 ### Step 2: Set Up and Activate a Virtual Environment
