@@ -4,8 +4,7 @@ This project provides an end-to-end solution for automatically classifying waste
 
 ## Demo
 
-![Demo of the Waste Classifier Web App]([LINK-TO-YOUR-DEMO-SCREENSHOT.PNG])
-![Demo of the Waste Classifier Web App](./demo.png)](https://github.com/maniraj48/Garbage-Classification.git)
+![Demo of the Waste Classifier Web App](./demo.png)](https://github.com/maniraj48/Garbage-Classification)
 
 
 ## 1. Project Overview
