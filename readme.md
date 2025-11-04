@@ -52,7 +52,12 @@ git clone https://github.com/maniraj48/Garbage-Classification.git
 cd Garbage-Classification
 ```
 
-### Step 2: Set Up and Activate a Virtual Environment
+### Step 2: Download the Trained Model
+The trained model file (589 MB) is too large for GitHub. You must download it manually from the link below and place the `best_waste_classifier.keras` file in the main project directory (the same folder as `app.py`).
+
+**➡️ ([[Download the model here](https://drive.google.com/file/d/1Ztovs_CaC_qHLDtBIWIeq9aO3aIOtpS2/view?usp=sharing)])**
+
+### Step 3: Set Up and Activate a Virtual Environment
 ```bash
 # Create a virtual environment named 'venv'
 python -m venv venv
@@ -64,13 +69,13 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-### Step 3: Install Dependencies
+### Step 4: Install Dependencies
 Install all the required Python libraries using the `requirements.txt` file.
 ```bash
 pip install -r requirements.txt
 ```
 
-### Step 4: Run the Web Application
+### Step 5: Run the Web Application
 ```bash
 python app.py
 ```
