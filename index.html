@@ -1,0 +1,80 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waste Classifier</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+        h1 { color: #333; }
+        .container { max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 10px; }
+        input[type="file"] { margin: 20px 0; }
+        input[type="submit"] { padding: 10px 20px; background-color: #007BFF; color: white; border: none; cursor: pointer; }
+        .result { margin-top: 30px; }
+        .result img { max-width: 100%; height: auto; border: 1px solid #ccc; }
+        .result h2 { font-size: 2em; color: #28a745; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Automatic Waste Classifier</h1>
+        <p>Upload an image of a waste item to classify it.</p>
+        
+        <form action="/predict" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" required>
+            <br>
+            <input type="submit" value="Classify Waste">
+        </form> -->
+
+        <!-- This section will only be displayed after a prediction is made -->
+        <!-- {% if prediction %}
+        <div class="result">
+            <h2>Prediction: {{ prediction }}</h2>
+            <img src="{{ url_for('static', filename='uploads/' + image_file) }}" alt="Uploaded Image">
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waste Classifier</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+        h1 { color: #333; }
+        .container { max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 10px; }
+        input[type="file"] { margin: 20px 0; }
+        input[type="submit"] { padding: 10px 20px; background-color: #007BFF; color: white; border: none; cursor: pointer; }
+        .result { margin-top: 30px; }
+        .result img { max-width: 100%; height: auto; border: 1px solid #ccc; }
+        .result h2 { font-size: 2em; color: #28a745; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Automatic Waste Classifier</h1>
+        <p>Upload an image of a waste item to classify it.</p>
+        
+        <form action="/predict" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" required>
+            <br>
+            <input type="submit" value="Classify Waste">
+        </form>
+
+        {% if prediction %}
+        <div class="result">
+            <h2>Prediction: {{ prediction }}</h2>
+            
+            <!-- THE FIX IS HERE -->
+            <!-- We construct the path directly, since Flask serves the 'static' folder -->
+            <img src="/static/{{ image_file }}" alt="Uploaded Image">
+            
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
