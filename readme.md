@@ -1,10 +1,11 @@
-# Automated Waste Classification for Sustainability
+# Automated Waste Classification using Convolutional Neural Networks
 
 This project provides an end-to-end solution for automatically classifying waste into different categories using a Convolutional Neural Network (CNN) built from scratch. The trained model is deployed in a simple, interactive web application built with Flask.
 
 ## Demo
 
 ![Demo of the Waste Classifier Web App](./demo.png)
+![Demo of the Waste Classifier Web App](./demo1.png)
 
 ## 1. Project Overview
 
@@ -88,7 +89,7 @@ The project is organized with a clean and scalable structure:
 ```
 .
 ├── app.py                      # The main Flask application script
-├── best_waste_classifier.keras   # The final, trained model file
+├── best_waste_classifier.keras   # The final, trained model file - download it from given link
 ├── requirements.txt            # A list of all project dependencies
 ├── README.md                   # This documentation file
 │
